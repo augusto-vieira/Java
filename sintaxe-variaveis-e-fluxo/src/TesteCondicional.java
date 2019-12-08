@@ -19,5 +19,6 @@ public class TesteCondicional {
 			}
 		}
 		//alterado pelo github
+		//alterado pelo Eclipse
 	}
 }
