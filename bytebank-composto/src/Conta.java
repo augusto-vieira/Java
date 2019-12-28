@@ -1,8 +1,8 @@
 public class Conta{
-	double saldo;
+	private double saldo;
 	int agencia;
 	int numero;
-	String titular;
+	Cliente titular;						//String titular --> Cliente
 	
 	public void deposita(double valor) {	//há uma diferença de cores entre saldo e valor,
 											//pois o primeiro é um atributo do objeto Conta, enquanto o segundo é uma variável.
@@ -26,6 +26,10 @@ public class Conta{
         } else {
             return false;
         }
+    }
+	
+	public double getSaldo() { 
+        return this.saldo;
     }
 	
 }
